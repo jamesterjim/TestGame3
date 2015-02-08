@@ -1,0 +1,13 @@
+@font-face {font-family: '8-Bit Madness Regular';  src: url('http://www.fontsaddict.com/fontface/8-bit-madness-regular.ttf');}
+
+
+
+#canvasTouch{position:  z-index: 15; width: 960px; height: 520px; color: white;   cursor: ;  background-color: orange; margin: 0px auto;}
+#canvasForeground{position: absolute; z-index: 5;}
+#canvasBackground{position: absolute; z-index: 0;}
+
+#chat{position: absolute; bottom: 0px; left: 0px; opacity: 0.2; width: 100%;}
+#chatContent{position: absolute; bottom: 20px; left: 0px; opacity: 0.5; width: 100%;}
+
+#debugInfo{position: absolute; top: 0; left: 0px;}
+

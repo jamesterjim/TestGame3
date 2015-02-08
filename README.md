@@ -16,11 +16,19 @@ If the hitbox is "auto" it will trig to get the points using width and height fo
 This is an example of multiplayer:
 ![alt text](http://puu.sh/fCyPv/7ab85cb3e5.png "")
 
-
+##What is each file?
+* index.js - serverside code
+* public/index.html - HTML to load canvas and JS files
+* public/index.css - CSS to format some elements
+* public/img/*.png - Image assets not made by me (the only thing I did not do from scratch!)
+* public/js/controls.js - handles keyboard and mouse movements
+* public/js/debug.js - Display any debug code and handle FPS
+* public/js/game.js - Draw everything that is on the scene
+* public/js/hitDetection.js - Hit detection
+* public/js/main.js - Start everything and hold main variables
+* public/js/server.js - handle anything coming from the server
 
 ##Installing
-
-
 Install NodeJS https://github.com/joyent/node/wiki/installing-node.js-via-package-manager
 
 Download testgame and unzip
